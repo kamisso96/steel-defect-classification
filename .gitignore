@@ -1,0 +1,31 @@
+# Virtual environment
+tf_env/
+venv/
+env/
+
+# Dataset (if large)
+data/NEU/
+data/NEU_prepared/
+
+# Trained models (optional – can be large)
+results/*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter notebooks (optional)
+.ipynb_checkpoints/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
